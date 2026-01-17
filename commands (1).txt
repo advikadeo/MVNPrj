@@ -1,0 +1,162 @@
+
+Commands :
+1.For adding a new user
+->   adduser user_name
+2.For setting password for a user
+->   passwd user_name
+3.For changing user
+->   su user_name
+
+ip:192.168.5.9
+root
+redhat
+
+**Some General Purpose Commands:
+1.To view calander 
+-> cal
+2.To view Date
+-> date
+3.To view Present Working Directory
+-> pwd
+4.To display approx. processor time used by a program
+-> clock
+5.To view how many users logged in
+-> who
+6.To view the current user logged in to the terminal
+-> whoami
+   who am i
+7.To check how many users logged in & what they are doing
+-> w
+8.To view current processes
+-> ps
+   ps -l
+   
+9.To wait 
+-> sleep time
+10.To stop a process
+-> kill processID
+   Killall process_name
+
+11.To clear the terminal screen 
+-> clear
+
+12.To create brief or abbrivated name for a command
+-> alias newName=command(This brief name of command will exist upto login session)
+
+13.To remove brief or abbrivated name for command
+-> unalias newName
+
+
+
+
+**Directory and File related commands
+
+1.To create a directory
+-> mkdir dir_nm
+2.To call or change directory
+-> cd dir_nm
+3.To create a file 
+-> touch file_nm
+4.To create and write into a file 
+-> cat > file_nm 
+  after typing text to come out type 'ctrl+d'
+5.To add or append data in a file
+-> cat >> file_nm
+    to come out press 'Ctrl+d'
+6.To come out of a directory
+-> cd ..
+   cd \ (To dirctly come out of all dir. and come to the 
+         home dir. )
+7.TO view file contents 
+-> cat file_nm
+8.To view dir.contents 
+-> ls
+   ls -a (To display the dir.contents with hidden files)
+   ls -l(To display the dir.contents with file permissions)
+9.To remove directory
+-> rmdir dir_nm
+   rm -rf dir_nm (to remove dir. forcefully with all  
+               dir.and files inside)
+10.To remove a file 
+-> rm file_nm
+11.To copy a file into a dir
+-> cp file_nm dir_nm
+12.To move a file into a dir(To rename a file also                                                      )
+-> mv file_nm dir_nm
+13.TO view directory tree
+-> tree
+14.To count words,characters and lines in a file
+-> wc file_nm
+   wc -l file_nm
+   wc -w file_nm
+   wc -c file_nm
+15.To get help there are two sets of 'Help' files 'man' and 'info'
+ -> man command_nm
+         (enter name of command for which you require details)
+ -> info command_nm
+    
+  *To find acommand for a particular task
+-> man -k task_nm (for ex. man -k delete)
+
+16.To search a file 
+-> find file_nm
+   find Char* (will list all files starting with that char)
+   find *char (will list all files ending with that char)
+17.To search for a particular word or text in a file
+   grep "string" file_nm (enter the string or word to search)
+   grep [s][t][r][i][n][g] file_nm
+18.To sort data
+-> sort [press enter]
+   Enter data to sort and press ctrl+d
+   
+   sort -r (TO sort in descending or reverse order)
+   sort -n (To sort numbers)
+   sort File_nm (to sort data in a file)
+19.To check enviornmenatal variables
+-> env 
+
+   
+
+  
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*Pipe operator(|):
+                   Takes output of 1st command & use as an input to 2nd command and after that 2nd command get executed.
+
+
+*Filters:
+         1.'more'
+         2.'less'
+         3.'tail'
+         4.'head'
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
